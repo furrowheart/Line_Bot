@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rational-camera-331305",
+  "private_key_id": "fafe8b36b09f4b90c9d72bca965f22d72e212bf5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/CY4kMmaSOgce\nMgC/M/aLsb4EIQuyeVtAtPtBD/kGM5Bk0HJ+jniybijJdbTYUYrlQX+IbWhrqdl2\nqmbGcQGn4jBe1lhCWwMiX9XMxHU8h82KdzxTuxDfDqZNuzWgUWZ09k+q7gf86pY0\nUT3l+29LylIt283UtPWueKquY7Xmc8AXEYKFlXqFcPyflV+ItqPr9u5axzlNIF0W\nNDJAUIrJ+0J8XltOv9E2GuaBfr4CJKHNXfX+fEHab5u9wo2mbxIok+68dTaGdz8Y\n82ESR6ROEnVP2m5qhafCOc0Q5unFL9t8Juo3S2bFFN/gMVhSuW/iUgW+ct3VVuPj\n6BRtFrsXAgMBAAECggEAVEttEv/CTseYGHTL65KMOXvGcp/6P1hZMaYqL71Sjq/2\nCOYJf1pyW5lMGgj8MW9ZsGtEUPil2MvrjvcFvo5iwqeF3HMMIstyCJrtBhux93Gc\n+no+flvOx/3419fBg+onIXkGElBR6gHBIXivrWlS5MhzlpSksDThK4lHFwgcXYD0\nkFcyGXvgCeK0mlQUZH1FMnb6SOgHCnO+tkp27jBru6Z1ijWGhshjCMBRFjjK8feZ\nnOSJPxmxcb3dI9qOXFxM+AIa52TI9MfQq9ASFzAZlofNT5OGg7jA5jQvjjCo9eUq\nA0/r1kT2za59iXfBDBHYoGGhr5Qp0t25ScAIJF+9QQKBgQD/fuVBOK5/T2dzU6fk\n3U93FjsnjVwR2gY2A4ib7nNqkYB50qsj0h71SU6WXhZAu6Aybo/M+DlischecuRI\n3yyk4rLn2mDvCoQRjrR3FaWM13Vrxm9z00uPlmTPcAqy5omwJZRpW2qJEcQjf6eB\nMTIkk1HIS2w1gNL1AAy06CvTUQKBgQC/ahaZAZEUaGJlAmjTPmmfCTgB8F2uTl/i\nHFg4WjDj2Fsv6fXsbn3ScU9QxVvohuyUuVk70Bw76+mpYqqxAJnTaWdmy/xfwwwc\nmXKvWopA59yMHk+/VoVRhxfG6nV+/vXF2PjPzgsi+a6mvd53ga1+8+e8Qt59WbT+\nNbJQzXT95wKBgQCPTwYYh0qZbliAf7P00433JikYDlpOSRSix2igzic+505BBsGn\n3fwvaWcDQNMKjDNXFlzig3jsuvvAvoD9vvCzq9Td58fnTOa3Umw3P5UUYuYiBbQO\nK75+U8VH9XiK0HT6sJmGXxhqueRiZP/3nziY+2ksB+IyQIgTlGuMLY4ngQKBgQCl\ncwZ7VE5ZjGxYEMAYr17ON0Kw8lmXG2lnYMakVtjhaBZRkPGfXlXlO0mqcBykHVOK\nrbbCq3xsEtsSLRWLDxDnGrlksja/czEZ20y04xaTSZZpip21rgxoTtOvfOL4VVqM\nm6FcxST9I0HiIEWVmIIlNJ9+K3JyeMKn5DPwAdb4ywKBgBRX/w1z4NEo6UqzcG0K\nUUN3zSuEa182GtHXSE/HUUrZLr1YNRF9lagmuxrA1MyDD22qTXpQR2HI7Jivn6S/\nH1Tkny5AcU5ePhCPsT1I1AN35RC6NubLwOIGFavlMiVSJoKGeaF8u7xBxn1OyvT2\npnuyl6KhHHr6B/POtIbwTIr3\n-----END PRIVATE KEY-----\n",
+  "client_email": "line-bot-record@rational-camera-331305.iam.gserviceaccount.com",
+  "client_id": "112556387803367443224",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/line-bot-record%40rational-camera-331305.iam.gserviceaccount.com"
+}
