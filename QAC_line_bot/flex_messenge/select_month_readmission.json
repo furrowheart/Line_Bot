@@ -1,0 +1,73 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "fit",
+    "url": "https://i.imgur.com/576WKQ1.png"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "查詢14天再住院率",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🧭選擇查詢月份🧭",
+            "size": "md",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "🔎二月份",
+          "text": "查詢二月份14天再住院率"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "📈趨勢圖",
+          "text": "查詢趨勢圖"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "📚查詢指標定義",
+          "uri": "https://www.nhi.gov.tw/AmountInfoWeb/iDesc.aspx?rtype=2&Q5C2_ID=1078"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}

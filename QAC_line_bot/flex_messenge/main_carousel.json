@@ -1,0 +1,59 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://b42f-60-251-53-35.ngrok.io/Image/logo.jpg"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "action": {
+                "type": "message",
+                "label": "查詢指標",
+                "text": "查詢指標"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "flex": 2,
+              "style": "primary",
+              "color": "#aaaaaa",
+              "action": {
+                "type": "uri",
+                "label": "查詢定義",
+                "uri": "https://www.nhi.gov.tw/AmountInfoWeb/TargetItem.aspx?rtype=2"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }

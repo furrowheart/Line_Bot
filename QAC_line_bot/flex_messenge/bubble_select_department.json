@@ -1,0 +1,89 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "選擇部門",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "內科系",
+            "data": "select_section_內科系",
+            "text": "內科系"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "外科系",
+            "data": "select_section_外科系",
+            "text": "外科系"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "婦兒科",
+            "data": "select_section_婦兒科",
+            "text": "婦兒科"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "五官及其它",
+            "data": "select_section_五官及其它",
+            "text": "五官及其他"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "急重及家醫",
+            "data": "select_section_急重及家醫",
+            "text": "急重及家醫"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "回到主選單",
+            "data": "main",
+            "text": "重新選擇"
+          }
+        }
+      ],
+      "flex": 0
+    }
+  }

@@ -1,0 +1,3 @@
+"confirm",select
+"user_section","indecator"
+"ppp","ddd"

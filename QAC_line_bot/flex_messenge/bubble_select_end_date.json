@@ -1,0 +1,48 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "選擇結束日期",
+        "weight": "bold",
+        "size": "xl"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "datetimepicker",
+          "label": "選擇結束日期",
+          "data":"select_confirm",
+          "mode": "date",
+          "initial": "2020-01-01",
+          "max": "2022-03-17",
+          "min": "2020-01-01"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "回到主選單",
+          "data": "main",
+          "text": "重新選擇"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}

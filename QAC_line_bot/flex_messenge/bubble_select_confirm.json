@@ -1,0 +1,64 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "選擇的項目為",
+        "weight": "bold",
+        "size": "xl",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "單位:",
+        "size": "lg",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "指標:",
+        "size": "lg",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "日期:",
+        "size": "lg",
+        "wrap": true
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "確認並開始查詢",
+          "data":"final_result,",
+          "text": "確認並開始查詢"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "回到主選單",
+          "data": "main",
+          "text": "重新選擇"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}

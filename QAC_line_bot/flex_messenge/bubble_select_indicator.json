@@ -1,0 +1,67 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "選擇指標",
+        "weight": "bold",
+        "size": "xl"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "死亡率",
+          "data": "select_start_date,指標|死亡率",
+          "text":"死亡率"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "14天再住院",
+          "data": "select_start_date,指標|14天再住院",
+          "text":"14天再住院"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "3日內重返急診",
+          "data": "select_start_date,指標|3日內重返急診",
+          "text":"3日內重返急診"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "回到主選單",
+          "data": "main",
+          "text": "重新選擇"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}
